@@ -5,7 +5,7 @@ const PricingCard = ({pricing}) => {
     
     return (
         <div className=''>
-            <div className="card  bg-base-100 shadow-sm">
+            <div className="card n  bg-base-100 shadow-sm">
   <div className="card-body">
     <span className="badge badge-xs badge-warning">Most Popular</span>
     <div className="flex justify-between">

@@ -3,7 +3,7 @@ import './App.css'
 import Navbar from './components/navbar/Navbar'
 import PricingData from './components/pricing/PricingData'
 
-const pricingPromise = fetch('public/pricingOption.json')
+const pricingPromise = fetch('/pricingOption.json')
                        .then(res => res.json())
                       
 function App() {
